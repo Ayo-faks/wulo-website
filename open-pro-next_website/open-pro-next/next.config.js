@@ -1,4 +1,6 @@
-const withMDX = require("@next/mdx")();
+const withMDX = require("@next/mdx")({
+  extension: /\.mdx?$/, // To support MDX files
+});
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -8,16 +10,6 @@ const nextConfig = {
   reactStrictMode: false, // Disable React's Strict Mode (not recommended for production)
   typescript: {
     ignoreBuildErrors: true,
-  },
-  // Add redirect configuration
-  async redirects() {
-    return [
-      {
-        source: '/:path*',
-        destination: 'https://wulo.ai/newsletter',
-        permanent: true,
-      },
-    ];
   },
   // Additional configuration if necessary
 };
