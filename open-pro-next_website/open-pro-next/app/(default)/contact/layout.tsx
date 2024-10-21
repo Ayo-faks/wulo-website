@@ -1,6 +1,6 @@
 export const metadata = {
-    title: "Contact us - Open PRO",
-    description: "Page description",
+    title: "Contact us - Wulo",
+    description: "AI legal assistant",
   };
   
   export default function ContactLayout({
