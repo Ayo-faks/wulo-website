@@ -9,6 +9,16 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  // Add redirect configuration
+  async redirects() {
+    return [
+      {
+        source: '/:path*',
+        destination: 'https://wulo.ai/newsletter',
+        permanent: true,
+      },
+    ];
+  },
   // Additional configuration if necessary
 };
 
