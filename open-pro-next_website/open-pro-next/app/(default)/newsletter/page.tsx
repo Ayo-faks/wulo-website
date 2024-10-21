@@ -16,7 +16,7 @@ export default function Newsletter() {
   const [message, setMessage] = useState('');
 
   // Function to handle form submission
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     if (!email) {

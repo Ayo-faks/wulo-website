@@ -4,10 +4,11 @@ import { NextResponse } from 'next/server';
 // Connect to MongoDB
 const connectMongo = async () => {
   if (mongoose.connection.readyState !== 1) {
-    await mongoose.connect(process.env.MONGODB_URI, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-    });
+    const uri = process.env.MONGODB_URI;
+    if (!uri) {
+      throw new Error('MONGODB_URI is not defined in the environment variables');
+    }
+    await mongoose.connect(uri);
   }
 };
 
@@ -22,22 +23,24 @@ const Email = mongoose.models.Email || mongoose.model('Email', EmailSchema);
 
 // POST method handler
 export async function POST(req: Request) {
-  await connectMongo();  // Ensure MongoDB is connected
-
-  const { email } = await req.json();  // Extract email from the request body
-
-  if (!email || !email.includes('@')) {
-    return NextResponse.json({ error: 'Invalid email address' }, { status: 400 });
-  }
-
   try {
+    await connectMongo();  // Ensure MongoDB is connected
+
+    const body = await req.json();
+    const email = body.email;
+
+    if (!email || typeof email !== 'string' || !email.includes('@')) {
+      return NextResponse.json({ error: 'Invalid email address' }, { status: 400 });
+    }
+
     // Save the email to the database
     const newEmail = new Email({ email });
     await newEmail.save();
 
     return NextResponse.json({ message: 'Successfully subscribed!' });
   } catch (error) {
-    return NextResponse.json({ error: 'An error occurred while saving the email.' }, { status: 500 });
+    console.error('Error in POST handler:', error);
+    return NextResponse.json({ error: 'An error occurred while processing the request.' }, { status: 500 });
   }
 }
 
