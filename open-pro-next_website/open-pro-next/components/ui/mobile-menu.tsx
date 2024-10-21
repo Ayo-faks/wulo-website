@@ -93,7 +93,7 @@ export default function MobileMenu() {
           leaveTo="opacity-0"
         >
           <ul className="p-2 text-sm">
-            <li>
+            {/* <li>
               <Link
                 href="/pricing"
                 className="flex rounded-lg px-2 py-1.5 text-white hover:text-indigo-500"
@@ -128,7 +128,7 @@ export default function MobileMenu() {
               >
                 Help Centre
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link
                 href="/newsletter"
@@ -147,7 +147,7 @@ export default function MobileMenu() {
                 Contact
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 href="/404"
                 className="flex rounded-lg px-2 py-1.5 text-white hover:text-indigo-500"
@@ -155,7 +155,7 @@ export default function MobileMenu() {
               >
                 404
               </Link>
-            </li>
+            </li> */}
           </ul>
         </Transition>
       </div>
