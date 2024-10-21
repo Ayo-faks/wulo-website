@@ -17,12 +17,10 @@ export default function Workflows() {
               </span>
             </div>
             <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.indigo.200),theme(colors.gray.50),theme(colors.indigo.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-              Map your product journey
+              Ignite your brilliance
             </h2>
             <p className="text-lg text-indigo-200/65">
-              Simple and elegant interface to start collaborating with your team
-              in minutes. It seamlessly integrates with your code and your
-              favorite programming languages.
+            Easily map out your legal processes with Wulo’s intuitive workflow system. Our platform is designed to guide legal practitioners through the product journey, from research to case management, ensuring smooth, efficient operations every step of the way.
             </p>
           </div>
           {/* Spotlight items */}
@@ -63,13 +61,12 @@ export default function Workflows() {
                   <div className="mb-3">
                     <span className="btn-sm relative rounded-full bg-gray-800/40 px-2.5 py-0.5 text-xs font-normal before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_bottom,theme(colors.gray.700/.15),theme(colors.gray.700/.5))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-gray-800/60">
                       <span className="bg-gradient-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                        Built-in Tools
+                        Built-in Legal Tools
                       </span>
                     </span>
                   </div>
                   <p className="text-indigo-200/65">
-                    Streamline the product development flow with a content
-                    platform that's aligned across specs and insights.
+                  Wulo comes with built-in legal tools that streamline the workflow for legal practitioners. By aligning across key insights and specifications, Wulo enhances the efficiency of document drafting, review, and legal research, integrating seamlessly with your preferred legal databases and tools.
                   </p>
                 </div>
               </div>
@@ -115,8 +112,7 @@ export default function Workflows() {
                     </span>
                   </div>
                   <p className="text-indigo-200/65">
-                    Streamline the product development flow with a content
-                    platform that's aligned across specs and insights.
+                  Wulo empowers you to scale your processes as your case load grows, offering flexible, ready-to-use templates that fit your team's unique legal requirements. Whether you're working solo or with a large legal team, Wulo adapts to your needs, facilitating immediate collaboration.
                   </p>
                 </div>
               </div>
@@ -157,13 +153,14 @@ export default function Workflows() {
                   <div className="mb-3">
                     <span className="btn-sm relative rounded-full bg-gray-800/40 px-2.5 py-0.5 text-xs font-normal before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_bottom,theme(colors.gray.700/.15),theme(colors.gray.700/.5))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-gray-800/60">
                       <span className="bg-gradient-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                        Tailored Flows
+                        Tailored Legal Flows
                       </span>
                     </span>
                   </div>
                   <p className="text-indigo-200/65">
-                    Streamline the product development flow with a content
-                    platform that's aligned across specs and insights.
+                  Customize every stage of your legal workflow. Wulo’s platform aligns with your practice’s specific legal requirements, making complex casework and legal processes more manageable. From case briefs to legal strategy, Wulo ensures clarity and alignment for faster, more organized results.
+
+
                   </p>
                 </div>
               </div>

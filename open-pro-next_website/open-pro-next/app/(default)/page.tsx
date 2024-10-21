@@ -14,13 +14,13 @@ import Cta from "@/components/cta";
 export default function Home() {
   return (
     <>
-      <PageIllustration />
-      <Hero />
+      {/* <PageIllustration /> */}
+      {/* <Hero /> */}
       <Workflows />
-      <Features />
+      {/* <Features />
       <SplitCarousel />
       <Pricing />
-      <Cta />
+      <Cta /> */}
     </>
   );
 }

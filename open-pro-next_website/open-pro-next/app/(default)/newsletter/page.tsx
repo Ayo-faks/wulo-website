@@ -86,7 +86,7 @@ export default function Newsletter() {
                     />
                   </div>
                   <span>
-                    <strong className="font-normal text-gray-200">20K</strong>{' '}
+                    <strong className="font-normal text-gray-200">123</strong>{' '}
                     have already subscribed.
                   </span>
                 </div>
