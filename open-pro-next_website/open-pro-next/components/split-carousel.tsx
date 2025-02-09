@@ -11,23 +11,23 @@ import SmallTestimonialImg from "@/public/images/small-testimonial.jpg";
 
 const tabs = [
   {
-    title: "Strategic Sync",
+    title: "Unified Assistants",
     description:
-      "Remove corners from the avatars and transform the way your team work.",
+      "Transform the way your team works with tools like Redaction, Contract Review, and Research tailored for legal precision.",
     img: CarouselImg01,
     imgAlt: "Carousel image 01",
   },
   {
-    title: "Feedback Loop",
+    title: "Unified Assistants",
     description:
-      "Best-in-class design practices to keep your work safe and secure.",
+      "Transform the way your team works with tools like Redaction, Contract Review, and Research tailored for legal precision.",
     img: CarouselImg02,
     imgAlt: "Carousel image 02",
   },
   {
-    title: "Enterprise-Ready",
+    title: "Privacy First",
     description:
-      "Built for teams of all sizes. From early-stage startups to global enterprises.",
+      "Advanced data protection ensures your work stays secure while you focus on what matters most.",
     img: CarouselImg03,
     imgAlt: "Carousel image 03",
   },
@@ -46,18 +46,17 @@ export default function SplitCarousel() {
               <div className="shrink-0 md:w-[500px] [&_>*]:pl-7">
                 <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-gradient-to-r before:from-transparent before:to-indigo-200/50 after:h-px after:w-8 after:bg-gradient-to-l after:from-transparent after:to-indigo-200/50">
                   <span className="inline-flex bg-gradient-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                    Software Standard
+                    Wulo: Yes
                   </span>
                 </div>
                 <div className="relative mb-6 border-l [border-image:linear-gradient(to_bottom,transparent,theme(colors.slate.400/.25),transparent)1] after:absolute after:left-0 after:top-0 after:h-4 after:w-px after:origin-bottom after:-translate-y-full after:animate-shine after:bg-[linear-gradient(180deg,_transparent,_theme(colors.indigo.500/.5)_25%,_theme(colors.indigo.500)_50%,_theme(colors.indigo.500/.5)_75%,_transparent)] after:opacity-0">
                   <div className="mb-4">
                     <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.indigo.200),theme(colors.gray.50),theme(colors.indigo.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-                      Improve efficiency & global coverage
+                      Improve Efficiency & Accuracy
+
                     </h2>
                     <p className="text-indigo-200/65">
-                      Open is so simple to use, it's easy to overlook the wealth
-                      of complex technologies packed under the hood that keep
-                      Open robust, safe, and blazing fast.
+                      Wulo combines simplicity with cutting-edge AI to deliver seamless, secure, and lightning-fast legal solutions.
                     </p>
                   </div>
 
@@ -92,9 +91,7 @@ export default function SplitCarousel() {
                 </div>
                 <div>
                   <p className="mb-4 font-nacelle text-gray-200">
-                    “I was blown away by how easy it was to create my content
-                    using this tool! Within a few hours, I had a
-                    professional-looking flow up and running.”
+                    "Wulo completely transformed how I handle my legal tasks. In no time, I had seamless workflows, clear insights, and the tools to tackle complex documents with ease—it felt like having an extra team member!"
                   </p>
                   <div className="flex items-center gap-3">
                     <Image
@@ -105,7 +102,7 @@ export default function SplitCarousel() {
                       alt="Small testimonial"
                     />
                     <div className="text-sm font-medium text-gray-200">
-                      <span>Chris Pick</span>
+                      <span>Martin Pickford</span>
                       <span className="text-gray-700"> - </span>
                       <a
                         className="text-indigo-200/65 transition-colors hover:text-indigo-500"

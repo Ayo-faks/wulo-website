@@ -61,13 +61,13 @@ export default function Workflows() {
                   <div className="mb-3">
                     <span className="btn-sm relative rounded-full bg-gray-800/40 px-2.5 py-0.5 text-xs font-normal before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_bottom,theme(colors.gray.700/.15),theme(colors.gray.700/.5))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-gray-800/60">
                       <span className="bg-gradient-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                        Built-in Legal Tools
+                      Automated Contract Analysis
+
                       </span>
                     </span>
                   </div>
                   <p className="text-indigo-200/65">
-                  Wulo comes with built-in legal tools that streamline the workflow for legal practitioners. By aligning across key insights and specifications, Wulo enhances the efficiency of document drafting, review, and legal research, integrating seamlessly with your preferred legal databases and tools.
-                  </p>
+                  Accelerate your legal workflow with AI-powered contract analysis. Wulo streamlines contract review, saving legal teams up to 80% of the time typically spent on manual analysis. Identify key clauses, risks, and obligations instantly—improving accuracy, compliance, and efficiency. Focus on strategy while Wulo handles the heavy lifting.                  </p>
                 </div>
               </div>
             </a>
@@ -107,13 +107,13 @@ export default function Workflows() {
                   <div className="mb-3">
                     <span className="btn-sm relative rounded-full bg-gray-800/40 px-2.5 py-0.5 text-xs font-normal before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_bottom,theme(colors.gray.700/.15),theme(colors.gray.700/.5))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-gray-800/60">
                       <span className="bg-gradient-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                        Scale Instantly
+                      Enhanced Search Capabilities
+
                       </span>
                     </span>
                   </div>
                   <p className="text-indigo-200/65">
-                  Wulo empowers you to scale your processes as your case load grows, offering flexible, ready-to-use templates that fit your team's unique legal requirements. Whether you're working solo or with a large legal team, Wulo adapts to your needs, facilitating immediate collaboration.
-                  </p>
+                  Cut legal research time in half with AI-driven search. Wulo intelligently retrieves relevant case law, statutes, and precedents in seconds—eliminating hours of manual research. Find precise, context-aware results instantly, so you can focus on building stronger legal arguments.                  </p>
                 </div>
               </div>
             </a>
@@ -153,13 +153,13 @@ export default function Workflows() {
                   <div className="mb-3">
                     <span className="btn-sm relative rounded-full bg-gray-800/40 px-2.5 py-0.5 text-xs font-normal before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_bottom,theme(colors.gray.700/.15),theme(colors.gray.700/.5))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-gray-800/60">
                       <span className="bg-gradient-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                        Tailored Legal Flows
+                      Document Generation & Compliance Checking
+
                       </span>
                     </span>
                   </div>
                   <p className="text-indigo-200/65">
-                  Customize every stage of your legal workflow. Wulo’s platform aligns with your practice’s specific legal requirements, making complex casework and legal processes more manageable. From case briefs to legal strategy, Wulo ensures clarity and alignment for faster, more organized results.
-
+                  Automate routine drafting and ensure compliance with UK property laws effortlessly. Wulo streamlines document creation, reducing manual workload while maintaining accuracy. Instantly check contracts, leases, and legal documents for regulatory compliance—saving time and minimizing risk.
 
                   </p>
                 </div>

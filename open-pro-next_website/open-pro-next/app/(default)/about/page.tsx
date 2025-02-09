@@ -17,11 +17,11 @@ export default function About() {
     <>
       <PageIllustration multiple />
       <Hero />
-      <Timeline />
-      <Team />
-      <Benefits />
-      <Career />
-      <Clients />
+      {/* <Timeline /> */}
+      {/* <Team /> */}
+      {/* <Benefits /> */}
+      {/* <Career /> */}
+      {/* <Clients /> */}
       <Cta />
     </>
   );

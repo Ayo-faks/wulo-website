@@ -16,7 +16,7 @@ export async function POST(request: NextRequest) {
 
   try {
     await client.connect();
-    const database = client.db('your_database_name');
+    const database = client.db('contact-form');
     const collection = database.collection('contacts');
 
     const result = await collection.insertOne({

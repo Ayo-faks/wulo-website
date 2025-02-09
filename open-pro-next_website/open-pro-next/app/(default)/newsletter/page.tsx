@@ -92,15 +92,11 @@ export default function Newsletter() {
                 </div>
               </div>
               <h1 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.indigo.200),theme(colors.gray.50),theme(colors.indigo.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-5 font-nacelle text-4xl font-semibold text-transparent md:text-5xl">
-                Join the Wulo Waitlist
+                Stay Ahead with Wulo: Subscribe to Our Newsletter
               </h1>
               <div className="mx-auto max-w-3xl">
                 <p className="text-xl text-indigo-200/65">
-                  Unlock the future of legal work. Wulo is the AI-powered legal
-                  copilot that helps you tackle research, document review, and
-                  workflow management with ease. Be among the first to
-                  experience faster, smarter, and more efficient legal practice.
-                  Don’t miss out—sign up now to get early access!
+                Discover the future of conveyancing with Wulo, your AI-powered legal copilot. Stay updated on the latest innovations in research, document review, and workflow management. By subscribing to our newsletter, you'll get exclusive insights, tips, and updates on how Wulo can transform your legal practice—faster, smarter, and more efficient. Sign up now and never miss a beat!
                 </p>
               </div>
             </div>

@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Sign In - Open PRO",
-  description: "Page description",
+  title: "Sign In - wulo conveyancer ai copilot platform",
+  description: "Sign in to access Wulo, the AI-powered conveyancer platform that streamlines property transactions, automates document review, and enhances workflow efficiency for conveyancers",
 };
 
 import Link from "next/link";
